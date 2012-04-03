@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background" >
+
+    <Button
+        android:id="@+id/Button03"
+        android:layout_width="168dip"
+        android:layout_height="75dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="59dp"
+        android:text="Chat"
+        android:textSize="28sp"/>
+
+    <Button
+        android:id="@+id/Button02"
+        android:layout_width="168dip"
+        android:layout_height="75dip"
+        android:layout_alignLeft="@+id/Button03"
+        android:layout_centerVertical="true"
+        android:text="Scan Users"
+        android:layout_marginBottom="59dp"
+        android:textSize="28sp"/>
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="168dip"
+        android:layout_height="75dip"
+        android:layout_above="@+id/Button02"
+        android:layout_alignLeft="@+id/Button02"
+        android:layout_marginBottom="59dp"
+        android:text="Profile"
+        android:textSize="28sp" />
+
+</RelativeLayout>

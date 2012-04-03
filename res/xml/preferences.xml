@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFFFFF">
+    
+ <PreferenceCategory android:title = "Network Information">
+     
+    <Preference 
+        android:key = "UniqueID"
+        android:title = "UniqueID"
+        android:summary = "Your Unique ID"
+        />
+    
+    <Preference
+        android:key = "BroadcastID"
+        android:title = "BroadcastID"
+        android:summary = "Networks Broadcast ID"
+        />
+    
+ </PreferenceCategory>   
+ 
+ <PreferenceCategory android:title = "User Information">
+    
+    <Preference
+        android:key = "Allow List"
+        android:title = "Allow List"
+        android:summary = "Clicking on a user will remove the user from the allow list"
+        />
+    
+    <Preference 
+        android:key = "Block List"
+        android:title = "Block List"
+        android:summary = "Clicking on a user will remove the user from the block list"
+        />
+    
+    </PreferenceCategory>
+    
+</PreferenceScreen>
